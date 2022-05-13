@@ -6,4 +6,10 @@ block content
     p.title-description Welcome to #{title}
 
   main
-    p testing
+    form(action='/new' method='POST')
+      h2 New post
+      | User:
+      input(type='text' name='user' id='user' value='')
+      | Content:
+      textarea(type='text' name='text' id='text' value='')
+      

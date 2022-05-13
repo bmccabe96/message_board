@@ -44,3 +44,11 @@ p {
   text-align: right;
   font-size: 0.8rem;
 }
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
