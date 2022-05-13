@@ -6,6 +6,9 @@ block content
     p.title-description Welcome to #{title}
 
   main
+    .button-container
+      a(href=`http://localhost:${process.env.PORT || 3000}/new`)
+        button.new(type='button') something on your mind?
     each message in messages
       div.message-container
         p.message-user= message.user

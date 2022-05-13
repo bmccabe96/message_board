@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -14,7 +18,31 @@ a {
 
 .title-description {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.button-container {
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.new {
+  background-color: white;
+  border: 2px solid rgb(7, 7, 126);
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  color: rgb(7, 7, 126);
+  cursor: pointer;
+  font-style: italic;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.new:hover {
+  color: white;
+  background-color:rgb(7, 7, 126);
 }
 
 .message-container {
