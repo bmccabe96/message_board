@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.title {
+  text-align: center;
+  color: rgb(7, 7, 126);
+}
+
+.title-description {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.message-container {
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;  margin: 1rem 0;
+  border-radius: 5px;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.message-user {
+  font-size: 1.5rem;
+  color: rgb(7, 7, 126);
+}
+
+.message-text {
+
+}
+
+.message-added {
+  text-align: right;
+  font-size: 0.8rem;
+}
